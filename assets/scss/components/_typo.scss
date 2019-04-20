@@ -1,0 +1,16 @@
+body,
+html {
+  font-family: $primary-font;
+  font-size: 18px;
+  color: #111111;
+  line-height: normal;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: geometricPrecision;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a:focus, button:focus {
+  outline: 0;
+  box-shadow: 0 0 0 2px rgba(255, 221, 45, 0.59);
+}
